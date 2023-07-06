@@ -145,7 +145,7 @@ To ensure that the httpbin application is functioning correctly after the upgrad
   kubectl get service httpbin-httpbin
   ```
 - I noted down the External IP of the service
-- I sent HTTP requests to the httpbin server using web browser
+- I sent HTTP requests to the httpbin server using web browsers and curl
 - I ensured that I receive valid HTTP responses from the httpbin server.
 - I inspected the httpbin server logs and any associated application logs using commands like kubectl logs to check for any errors or anomalies.
 
